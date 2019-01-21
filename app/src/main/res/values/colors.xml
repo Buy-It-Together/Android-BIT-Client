@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorBackgroundDefault">#000000</color>
+    <color name="colorAccent">#e1d603</color>
+    <color name="colorText">#ffffff</color>
+
+    <!--Guzik dodawania nowej oferty-->
+    <color name="backgroundTint">#e1d603</color>
+    <color name="tint">#fbff00</color>
+    <color name="rippleColor">#fff534</color>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		tools:context=".ui.activity.AddOfferActivity"
+>
+	<LinearLayout android:layout_width="match_parent"
+	              android:layout_height="wrap_content"
+	              android:orientation="vertical"
+	              android:layout_margin="16dp">
+
+		<ProgressBar
+				style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Large"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/add_offer_progress_bar"
+				android:visibility="gone"/>
+
+		<LinearLayout android:layout_width="match_parent"
+		              android:layout_height="match_parent"
+		              android:orientation="vertical"
+		              android:id="@+id/add_offer_form" android:layout_marginBottom="48dp">
+
+			<LinearLayout
+					android:orientation="vertical"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:id="@+id/activity_add_offer_fragment_container"/>
+
+			<Button
+					android:text="@string/addofferbutton"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" android:id="@+id/buttonAddOffer"/>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
